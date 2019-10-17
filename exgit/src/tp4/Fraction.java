@@ -15,20 +15,20 @@ public class Fraction {
 		this.denominateur=1.0;
 		this.numerateur=numerateur;
 	}
-	
+
 	public Fraction()
 	{
 		this.numerateur=0.0;
 		this.denominateur=1.0;
 	}
-	
+
 	public String conversionchaine() {
-		
+
 		return this.denominateur+"/"+this.numerateur;
-		
-		
-		
-		
+
+
+
+
 	}
 
     public double getNumerateur(){
@@ -42,4 +42,8 @@ public class Fraction {
     public double getDouble(){
         return this.numerateur/this.denominateur;
     }
+
+	public boolean plusGrand(Fraction compare) {
+		return this.getDouble() >= compare.getDouble();
+	}
 }
