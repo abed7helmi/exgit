@@ -15,5 +15,20 @@ public class Fraction {
 		this.denominateur=1.0;
 		this.numerateur=numerateur;
 	}
+	
+	public Fraction()
+	{
+		this.numerateur=0.0;
+		this.denominateur=1.0;
+	}
+	
+	public String conversionchaine() {
+		
+		return this.denominateur+"/"+this.numerateur;
+		
+		
+		
+		
+	}
 
 }
