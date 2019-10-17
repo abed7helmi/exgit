@@ -31,11 +31,11 @@ public class Fraction {
 		
 	}
 
-    public int getNumerateur(){
+    public double getNumerateur(){
         return this.numerateur;
     }
 
-    public int getDenominateur(){
+    public double getDenominateur(){
         return this.denominateur;
     }
 
